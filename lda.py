@@ -22,7 +22,7 @@ class LDA:
             self._proj_mat = np.real(np.load(load_path))
             return self._proj_mat
 
-        dims = X.shape[1]
+        dims = X.shape[1].ravel()
         #calculating the mean of the classes
         mean_vectors = np.empty((noOfClasses, dims))
     
