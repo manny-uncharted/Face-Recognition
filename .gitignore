@@ -1,5 +1,7 @@
 
 misc/
 
+.ipynb_checkpoint/
+
 
 training_dataset.csv
